@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sort_colours {
-    public void sorted(int[] arr){
+    public void sorted(int[] arr){           // insertion sort
         for(int i=0;i< arr.length;i++){
             int temp= arr[i];
             int j=i;
