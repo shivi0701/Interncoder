@@ -2,16 +2,15 @@ import java.util.Scanner;
 
 public class find_the_duplicate_no {
     public int duplicate(int[] arr){
-        for(int i=1;i< arr.length;i++){
-            for(int j=i+1;j< arr.length;j++){
+        for(int i=1; i<arr.length;i++){
+            for(int j=i+1; j<arr.length;j++){
                 if(arr[i]==arr[j]){
-                    return arr[i];
+                    return arr[j];
                 }
             }
         }
         return 0;
     }
-
 }
 class Main{
     public static void main(String[] args) {
